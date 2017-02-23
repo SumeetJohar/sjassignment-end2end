@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: sjassignment-end2end
+  host: sjassignment-end2end
+  disk_quota: 1024M
+  services:
+  - sjassignment-end2end-cloudantNoSQLDB
+  - sjassignment-end2end-iotf-service
